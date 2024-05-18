@@ -1269,7 +1269,7 @@
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp" />
   <project path="system/update_engine" name="AfterLifePrjkt13/system_update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
+  <project path="system/vold" name="AfterLifePrjkt13/system_vold" groups="pdk" />
   <project path="test/dittosuite" name="platform/test/dittosuite" groups="pdk" remote="aosp" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/robolectric-extensions" name="platform/test/robolectric-extensions" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="aosp" />
