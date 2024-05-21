@@ -9,6 +9,7 @@
   <project path="hardware/mediatek" name="AfterLifePrjkt13/hardware_mediatek" />
   <project path="hardware/motorola" name="AfterLifePrjkt13/hardware_motorola" />
   <project path="hardware/xiaomi" name="AfterLifePrjkt13/hardware_xiaomi" />
+  <project path="packages/apps/AfterLab" name="AfterLifePrjkt13/packages_apps_AfterLab" />
   <project path="packages/apps/Aperture" name="AfterLifePrjkt13/packages_apps_Aperture" />
   <project path="packages/apps/Etar" name="AfterLifePrjkt13/packages_apps_Etar" />
   <project path="packages/apps/ExactCalculator" name="AfterLifePrjkt13/packages_apps_ExactCalculator" />
