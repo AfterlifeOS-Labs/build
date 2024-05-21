@@ -1268,7 +1268,7 @@
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" remote="aosp" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="aosp" />
+  <project path="system/update_engine" name="AfterLifePrjkt13/system_update_engine" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
   <project path="test/dittosuite" name="platform/test/dittosuite" groups="pdk" remote="aosp" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" remote="aosp" />
