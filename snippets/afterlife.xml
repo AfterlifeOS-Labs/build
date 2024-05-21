@@ -2,6 +2,7 @@
 <manifest>
   <!-- AfterLife additions -->
   <project path="afterlife" name="aepranata/manifest" remote="gitea" />
+  <project path="device/afterlife/ota" name="AfterLifePrjkt13/device_afterlife_ota" />
   <project path="device/afterlife/sepolicy" name="AfterLifePrjkt13/device_afterlife_sepolicy" />
   <project path="external/dwarves" name="AfterLifePrjkt13/external_dwarves" />
   <project path="external/tinyxml" name="AfterLifePrjkt13/external_tinyxml" />
