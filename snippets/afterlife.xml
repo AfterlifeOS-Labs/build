@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AfterLife additions -->
+  <project path="afterlife" name="aepranata/manifest" remote="gitea" />
+  <project path="device/afterlife/sepolicy" name="AfterLifePrjkt13/device_afterlife_sepolicy" />
+  <project path="external/dwarves" name="AfterLifePrjkt13/external_dwarves" />
+  <project path="external/tinyxml" name="AfterLifePrjkt13/external_tinyxml" />
+  <project path="hardware/afterlife/interfaces" name="AfterLifePrjkt13/hardware_afterlife_interfaces" />
+  <project path="hardware/mediatek" name="AfterLifePrjkt13/hardware_mediatek" />
+  <project path="hardware/motorola" name="AfterLifePrjkt13/hardware_motorola" />
+  <project path="hardware/xiaomi" name="AfterLifePrjkt13/hardware_xiaomi" />
+  <project path="packages/apps/Aperture" name="AfterLifePrjkt13/packages_apps_Aperture" />
+  <project path="packages/apps/Etar" name="AfterLifePrjkt13/packages_apps_Etar" />
+  <project path="packages/apps/ExactCalculator" name="AfterLifePrjkt13/packages_apps_ExactCalculator" />
+  <project path="packages/apps/FMRadio" name="AfterLifePrjkt13/packages_apps_FMRadio" />
+  <project path="packages/apps/Recorder" name="AfterLifePrjkt13/packages_apps_Recorder" />
+  <project path="packages/apps/RepainterServicePriv" name="AfterLifePrjkt13/packages_apps_RepainterServicePriv" />
+  <project path="packages/apps/SimpleDeviceConfig" name="AfterLifePrjkt13/packages_apps_SimpleDeviceConfig" />
+  <project path="packages/apps/SimpleSettingsConfig" name="AfterLifePrjkt13/packages_apps_SimpleSettingsConfig" />
+  <project path="packages/resources/devicesettings" name="AfterLifePrjkt13/packages_resources_devicesettings" />
+  <project path="prebuilts/custom-sdk" name="AfterLifePrjkt13/prebuilts_custom-sdk" />
+  <project path="vendor/bcr" name="AfterLifePrjkt13/vendor_bcr" />
+  <project path="vendor/afterlife" name="AfterLifePrjkt13/vendor_afterlife" />
+  <project path="vendor/afterui" name="AfterLifePrjkt13/vendor_AfterUI" />
+  <project path="vendor/SystemUIClocks" name="AfterLifePrjkt/vendor_SystemUIClocks" remote="gitea" />
+  <project path="vendor/signed" name="AfterLifePrjkt13/vendor_signed" />
+  <project path="vendor/support" name="AfterLifePrjkt13/vendor_support" />
+
+  <!-- Legacy AOSP additions -->
+
+  <!-- Inline kernel build -->
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.76" />
+
+  <!-- CodeLinaro additions -->
+  <project path="device/mediatek/sepolicy_vndr" name="AfterLifePrjkt13/device_mediatek_sepolicy_vndr" revision="14.2" />
+  <project path="device/qcom/sepolicy" name="AfterLifePrjkt13/device_qcom_sepolicy" revision="14" />
+  <project path="device/qcom/sepolicy-legacy-um" name="AfterLifePrjkt13/device_qcom_sepolicy" revision="14-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="AfterLifePrjkt13/device_qcom_sepolicy_vndr" revision="14-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="AfterLifePrjkt13/device_qcom_sepolicy_vndr" revision="14-caf-sm6225" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="AfterLifePrjkt13/device_qcom_sepolicy_vndr" revision="14-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="AfterLifePrjkt13/device_qcom_sepolicy_vndr" revision="14-caf-sm8550" />
+  <project path="device/samsung_slsi/sepolicy" name="AfterLifePrjkt13/device_samsung_slsi_sepolicy" revision="14.2" />
+  <project path="hardware/qcom-caf/common" name="AfterLifePrjkt13/hardware_qcom-caf_common" groups="qcom">
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm6225/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6225/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/wlan" name="AfterLifePrjkt13//hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="14.2-caf" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" revision="lineage-21.0" />
+  <project path="vendor/qcom/opensource/libfmjni" name="AfterLifePrjkt13/vendor_qcom_opensource_libfmjni" />
+  <project path="vendor/qcom/opensource/vibrator" name="AfterLifePrjkt13/vendor_qcom_opensource_vibrator" />
+</manifest>

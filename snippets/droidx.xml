@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="DroidX-UI/vendor_qcom_opensource_agm" revision="14-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="DroidX-UI/vendor_qcom_opensource_arpal" revision="14-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="DroidX-UI/hardware_qcom_audio-ar" revision="14-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="DroidX-UI/vendor_qcom_opensource_data-ipa-cfg-mgr" revision="14-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/dataipa" name="DroidX-UI/vendor_qcom_opensource_dataipa" revision="14-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/display" name="DroidX-UI/hardware_qcom_display" revision="14-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/media" name="DroidX-UI/hardware_qcom_media" revision="14-sm6225" />
+  <project path="hardware/qcom-caf/sm8350/display" name="DroidX-UI/hardware_qcom_display" groups="qcom" revision="14-sm8350" />
+</manifest>
