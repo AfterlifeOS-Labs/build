@@ -20,7 +20,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="AfterLifePrjkt13/packages_apps_SimpleDeviceConfig" />
   <project path="packages/apps/SimpleSettingsConfig" name="AfterLifePrjkt13/packages_apps_SimpleSettingsConfig" />
   <project path="packages/resources/devicesettings" name="AfterLifePrjkt13/packages_resources_devicesettings" />
-  <project path="packages/apps/Updater" name="AfterLifePrjkt/packages_apps_Updater" remote="codeberg" />
+  <project path="packages/apps/Updater" name="AfterLifePrjkt/packages_apps_Updater" remote="gitea" />
   <project path="prebuilts/custom-sdk" name="AfterLifePrjkt13/prebuilts_custom-sdk" />
   <project path="system/qcom" name="AfterLifePrjkt13/system_qcom" />
   <project path="vendor/bcr" name="AfterLifePrjkt13/vendor_bcr" />
