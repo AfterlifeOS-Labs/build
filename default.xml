@@ -1058,7 +1058,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Settings" name="AfterLifePrjkt13/packages_apps_Settings" groups="pdk-fs" revision="d3bea2bd07fbe471827eaaf048e853d36a241bef" />
+  <project path="packages/apps/Settings" name="AfterLifePrjkt13/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SettingsIntelligence" name="AfterLifePrjkt13/packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" remote="aosp" />
