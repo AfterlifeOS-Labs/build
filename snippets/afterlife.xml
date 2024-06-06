@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- AfterLife additions -->
-  <project path="afterlife" name="AfterLifePrjkt/manifest" remote="gitea" />
-  <project path="device/afterlife/ota" name="AfterLifePrjkt/device_afterlife_ota" />
-  <project path="device/afterlife/sepolicy" name="AfterLifePrjkt/device_afterlife_sepolicy" />
-  <project path="external/dwarves" name="AfterLifePrjkt/external_dwarves" />
-  <project path="external/tinyxml" name="AfterLifePrjkt/external_tinyxml" />
-  <project path="hardware/afterlife/interfaces" name="AfterLifePrjkt/hardware_afterlife_interfaces" />
-  <project path="hardware/mediatek" name="AfterLifePrjkt/hardware_mediatek" />
-  <project path="hardware/motorola" name="AfterLifePrjkt/hardware_motorola" />
-  <project path="hardware/xiaomi" name="AfterLifePrjkt/hardware_xiaomi" />
-  <project path="packages/apps/AfterLab" name="AfterLifePrjkt/packages_apps_AfterLab" />
-  <project path="packages/apps/Aperture" name="AfterLifePrjkt/packages_apps_Aperture" />
-  <project path="packages/apps/Etar" name="AfterLifePrjkt/packages_apps_Etar" />
-  <project path="packages/apps/ExactCalculator" name="AfterLifePrjkt/packages_apps_ExactCalculator" />
-  <project path="packages/apps/FMRadio" name="AfterLifePrjkt/packages_apps_FMRadio" />
-  <project path="packages/apps/Recorder" name="AfterLifePrjkt/packages_apps_Recorder" />
-  <project path="packages/apps/RepainterServicePriv" name="AfterLifePrjkt/packages_apps_RepainterServicePriv" />
-  <project path="packages/apps/SimpleDeviceConfig" name="AfterLifePrjkt/packages_apps_SimpleDeviceConfig" />
-  <project path="packages/apps/SimpleSettingsConfig" name="AfterLifePrjkt/packages_apps_SimpleSettingsConfig" />
-  <project path="packages/resources/devicesettings" name="AfterLifePrjkt/packages_resources_devicesettings" />
-  <project path="packages/apps/Updater" name="AfterLifePrjkt/packages_apps_Updater" remote="gitea" />
-  <project path="prebuilts/custom-sdk" name="AfterLifePrjkt/prebuilts_custom-sdk" />
-  <project path="system/qcom" name="AfterLifePrjkt/system_qcom" />
-  <project path="vendor/bcr" name="AfterLifePrjkt/vendor_bcr" />
-  <project path="vendor/afterlife" name="AfterLifePrjkt/vendor_afterlife" />
-  <project path="vendor/afterui" name="AfterLifePrjkt/vendor_AfterUI" />
-  <project path="vendor/SystemUIClocks" name="AfterLifePrjkt/vendor_SystemUIClocks" remote="gitea" />
-  <project path="vendor/signed" name="AfterLifePrjkt/vendor_signed" />
-  <project path="vendor/support" name="AfterLifePrjkt/vendor_support" />
+  <project path="afterlife" name="AfterLifeProject/manifest" remote="gitea" />
+  <project path="device/afterlife/ota" name="AfterLifeProject/device_afterlife_ota" />
+  <project path="device/afterlife/sepolicy" name="AfterLifeProject/device_afterlife_sepolicy" />
+  <project path="external/dwarves" name="AfterLifeProject/external_dwarves" />
+  <project path="external/tinyxml" name="AfterLifeProject/external_tinyxml" />
+  <project path="hardware/afterlife/interfaces" name="AfterLifeProject/hardware_afterlife_interfaces" />
+  <project path="hardware/mediatek" name="AfterLifeProject/hardware_mediatek" />
+  <project path="hardware/motorola" name="AfterLifeProject/hardware_motorola" />
+  <project path="hardware/xiaomi" name="AfterLifeProject/hardware_xiaomi" />
+  <project path="packages/apps/AfterLab" name="AfterLifeProject/packages_apps_AfterLab" />
+  <project path="packages/apps/Aperture" name="AfterLifeProject/packages_apps_Aperture" />
+  <project path="packages/apps/Etar" name="AfterLifeProject/packages_apps_Etar" />
+  <project path="packages/apps/ExactCalculator" name="AfterLifeProject/packages_apps_ExactCalculator" />
+  <project path="packages/apps/FMRadio" name="AfterLifeProject/packages_apps_FMRadio" />
+  <project path="packages/apps/Recorder" name="AfterLifeProject/packages_apps_Recorder" />
+  <project path="packages/apps/RepainterServicePriv" name="AfterLifeProject/packages_apps_RepainterServicePriv" />
+  <project path="packages/apps/SimpleDeviceConfig" name="AfterLifeProject/packages_apps_SimpleDeviceConfig" />
+  <project path="packages/apps/SimpleSettingsConfig" name="AfterLifeProject/packages_apps_SimpleSettingsConfig" />
+  <project path="packages/resources/devicesettings" name="AfterLifeProject/packages_resources_devicesettings" />
+  <project path="packages/apps/Updater" name="AfterLifeProject/packages_apps_Updater" remote="gitea" />
+  <project path="prebuilts/custom-sdk" name="AfterLifeProject/prebuilts_custom-sdk" />
+  <project path="system/qcom" name="AfterLifeProject/system_qcom" />
+  <project path="vendor/bcr" name="AfterLifeProject/vendor_bcr" />
+  <project path="vendor/afterlife" name="AfterLifeProject/vendor_afterlife" />
+  <project path="vendor/afterui" name="AfterLifeProject/vendor_AfterUI" />
+  <project path="vendor/SystemUIClocks" name="AfterLifeProject/vendor_SystemUIClocks" remote="gitea" />
+  <project path="vendor/signed" name="AfterLifeProject/vendor_signed" />
+  <project path="vendor/support" name="AfterLifeProject/vendor_support" />
 
   <!-- Legacy AOSP additions -->
 
@@ -36,15 +36,15 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.76" />
 
   <!-- CodeLinaro additions -->
-  <project path="device/mediatek/sepolicy_vndr" name="AfterLifePrjkt/device_mediatek_sepolicy_vndr" revision="14.2" />
-  <project path="device/qcom/sepolicy" name="AfterLifePrjkt/device_qcom_sepolicy" revision="14" />
-  <project path="device/qcom/sepolicy-legacy-um" name="AfterLifePrjkt/device_qcom_sepolicy" revision="14-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="AfterLifePrjkt/device_qcom_sepolicy_vndr" revision="14-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/sm6225" name="AfterLifePrjkt/device_qcom_sepolicy_vndr" revision="14-caf-sm6225" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="AfterLifePrjkt/device_qcom_sepolicy_vndr" revision="14-caf-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="AfterLifePrjkt/device_qcom_sepolicy_vndr" revision="14-caf-sm8550" />
-  <project path="device/samsung_slsi/sepolicy" name="AfterLifePrjkt/device_samsung_slsi_sepolicy" revision="14.2" />
-  <project path="hardware/qcom-caf/common" name="AfterLifePrjkt/hardware_qcom-caf_common" groups="qcom">
+  <project path="device/mediatek/sepolicy_vndr" name="AfterLifeProject/device_mediatek_sepolicy_vndr" revision="14.2" />
+  <project path="device/qcom/sepolicy" name="AfterLifeProject/device_qcom_sepolicy" revision="14" />
+  <project path="device/qcom/sepolicy-legacy-um" name="AfterLifeProject/device_qcom_sepolicy" revision="14-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="AfterLifeProject/device_qcom_sepolicy_vndr" revision="14-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="AfterLifeProject/device_qcom_sepolicy_vndr" revision="14-caf-sm6225" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="AfterLifeProject/device_qcom_sepolicy_vndr" revision="14-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="AfterLifeProject/device_qcom_sepolicy_vndr" revision="14-caf-sm8550" />
+  <project path="device/samsung_slsi/sepolicy" name="AfterLifeProject/device_samsung_slsi_sepolicy" revision="14.2" />
+  <project path="hardware/qcom-caf/common" name="AfterLifeProject/hardware_qcom-caf_common" groups="qcom">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
@@ -83,8 +83,8 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/wlan" name="AfterLifePrjkt//hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="14.2-caf" />
+  <project path="hardware/qcom-caf/wlan" name="AfterLifeProject//hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="14.2-caf" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" revision="lineage-21.0" />
-  <project path="vendor/qcom/opensource/libfmjni" name="AfterLifePrjkt/vendor_qcom_opensource_libfmjni" />
-  <project path="vendor/qcom/opensource/vibrator" name="AfterLifePrjkt/vendor_qcom_opensource_vibrator" />
+  <project path="vendor/qcom/opensource/libfmjni" name="AfterLifeProject/vendor_qcom_opensource_libfmjni" />
+  <project path="vendor/qcom/opensource/vibrator" name="AfterLifeProject/vendor_qcom_opensource_vibrator" />
 </manifest>
