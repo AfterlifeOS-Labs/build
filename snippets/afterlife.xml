@@ -19,8 +19,9 @@
   <project path="packages/apps/RepainterServicePriv" name="AfterLifeProject/packages_apps_RepainterServicePriv" />
   <project path="packages/apps/SimpleDeviceConfig" name="AfterLifeProject/packages_apps_SimpleDeviceConfig" />
   <project path="packages/apps/SimpleSettingsConfig" name="AfterLifeProject/packages_apps_SimpleSettingsConfig" />
-  <project path="packages/resources/devicesettings" name="AfterLifeProject/packages_resources_devicesettings" />
   <project path="packages/apps/Updater" name="AfterLifeProject/packages_apps_Updater" remote="gitea" />
+  <project path="packages/overlays/Themes" name="AfterLifeProject/packages_overlays_Themes" />
+  <project path="packages/resources/devicesettings" name="AfterLifeProject/packages_resources_devicesettings" />
   <project path="prebuilts/custom-sdk" name="AfterLifeProject/prebuilts_custom-sdk" />
   <project path="system/qcom" name="AfterLifeProject/system_qcom" />
   <project path="vendor/bcr" name="AfterLifeProject/vendor_bcr" />
